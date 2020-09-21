@@ -6,13 +6,11 @@
   "author": {
     "name": "scottrepreneur"
   },
-  "contributors": [
-    {
-      "name": "Scott Herren",
-      "email": "scottrepreneur@ethmail.cc",
-      "url": "https://github.com/scottrepreneur/mb-merkle-service"
-    }
-  ],
+  "contributors": [{
+    "name": "Scott Herren",
+    "email": "scottrepreneur@ethmail.cc",
+    "url": "https://github.com/scottrepreneur/mb-merkle-service"
+  }],
   "repository": {
     "type": "git",
     "url": "https://github.com/scottrepreneur/mb-merkle-service"
@@ -50,6 +48,7 @@
     "express": "^4.16.2",
     "graphql": "^15.0.0",
     "graphql-tag": "^2.10.3",
+    "lodash": "^4.17.20",
     "merkletreejs": "^0.1.11",
     "node-cron": "^2.0.3",
     "node-fetch": "^2.6.0",
@@ -67,6 +66,7 @@
     "jest": "^22.0.4",
     "prettier": "^1.9.2",
     "serverless": "^1.26.0",
+    "serverless-plugin-typescript": "^1.1.9",
     "supertest": "^3.1.0",
     "ts-jest": "^22.0.0",
     "ts-node": "^3.3.0",

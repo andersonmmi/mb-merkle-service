@@ -6,11 +6,13 @@
   "author": {
     "name": "scottrepreneur"
   },
-  "contributors": [{
-    "name": "Scott Herren",
-    "email": "scottrepreneur@ethmail.cc",
-    "url": "https://github.com/scottrepreneur/mb-merkle-service"
-  }],
+  "contributors": [
+    {
+      "name": "Scott Herren",
+      "email": "scottrepreneur@ethmail.cc",
+      "url": "https://github.com/scottrepreneur/mb-merkle-service"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/scottrepreneur/mb-merkle-service"
@@ -62,6 +64,7 @@
     "@types/node": "^8.5.1",
     "@types/supertest": "^2.0.4",
     "aws-auth-helper": "^1.0.0",
+    "dynamodb-local": "0.0.31",
     "faker": "^4.1.0",
     "jest": "^22.0.4",
     "prettier": "^1.9.2",

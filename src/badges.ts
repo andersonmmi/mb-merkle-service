@@ -1014,7 +1014,10 @@ export async function getBadgesForAddress(_address: string) {
         let tree = new MerkleTree(template.addresses);
         badge.root = tree.getHexRoot();
 
-        badge.unlocked = checkTemplateAddressesForAddress(_address, template.addresses);
+        badge.unlocked = checkTemplateAddressesForAddress(
+          _address,
+          template.addresses,
+        );
 
         if (badge.unlocked && !badge.redeemed) {
           badge.proof = tree.getHexProof(_address);
